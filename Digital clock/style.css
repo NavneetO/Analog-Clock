@@ -1,0 +1,132 @@
+.circle{
+    height:500px ;
+    width:500px;
+    border-radius: 50%;
+    background:black ;
+    border: 30px white;
+    
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, rgb(19, 223, 206),rgb(43, 184, 15));
+}
+.circle::before{
+    content:'';
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background:white ;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+   
+}
+.hand{
+    transform-origin: bottom;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    bottom:50%;
+    left:50%;
+    transform: translate(-50%);
+    border-top-left-radius: 30px;
+
+}
+.hours{
+    
+    height:9rem;
+    width: .7rem;
+
+}
+.minutes{
+    
+    height:12rem ;
+    width: 0.6rem;
+
+}
+.seconds{
+    
+    height: 14rem;
+    width: 0.2rem;
+
+}
+.numbers{
+    font-size: 45px;
+    color: white;
+}
+.one{
+    position: absolute;
+    top: 25%;
+    left: 56.5%; 
+}
+.two{
+    position: absolute;
+    top: 34%;
+    left: 61.5%;
+
+}
+
+.three{
+    position: absolute;
+    top: 47%;
+    left: 63%;
+
+}
+
+.four{
+    position: absolute;
+    top: 59%;
+    left: 61.7%;
+
+}
+
+.five{
+    position: absolute;
+    top: 69%;
+    right: 41.5%;
+
+}
+
+.six{
+    position: absolute;
+    top: 73%;
+    left: 49.5%;
+
+}
+.seven{
+    position: absolute;
+    top: 69%;
+    left: 42%;
+
+}
+.eight{
+    position: absolute;
+    top: 59%;
+    left: 37%;
+
+}
+.nine{
+    position: absolute;
+    top: 48%;
+    left: 35.5%;
+
+}
+.ten{
+    position: absolute;
+    top: 36.7%;
+    left: 36.7%;
+
+}
+.eleven{
+    position: absolute;
+    top: 25%;
+    left: 41.5%;
+
+}
+.twelve{
+    position: absolute;
+    top: 22%;
+    left:48.5%;
+}
